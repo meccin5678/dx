@@ -390,14 +390,16 @@ p {
 
 .price-details-title {
   margin: 0;
-  padding: 18px 0 12px;
-  border-top: 1px solid var(--line);
+  padding: 24px 0 12px;
+  /* border-top: 1px solid var(--line); */
   font-size: var(--font-size-section-label);
   font-weight: 600;
+  text-align: center;
 }
 
 .price-tools-panel {
-  margin-top: 24px;
+  /* margin-top: 24px; */
+  margin-top: 48px;
   padding: 18px 20px 20px;
   border: 1px solid var(--line);
   background: var(--surface-soft);
@@ -438,6 +440,12 @@ p {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@media (max-width: 1080px) {
+  .price-tools {
+    grid-template-columns: 1fr;
+  }
 }
 
 .price-tools li {
@@ -503,6 +511,13 @@ p {
   padding: 25px 24px 23px;
   border: 1px solid var(--line);
   background: rgb(255 255 255 / 65%);
+  box-shadow: 0 8px 24px rgb(41 39 43 / 6%), 0 2px 6px rgb(41 39 43 / 4%);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.method-card:hover {
+  box-shadow: 0 12px 30px rgb(41 39 43 / 9%), 0 3px 8px rgb(41 39 43 / 5%);
+  transform: translateY(-3px);
 }
 
 .card-number {
