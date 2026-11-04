@@ -1,7 +1,7 @@
 const navigationItems = [
-  { label: "スキル", href: "skills.html" },
   { label: "ワークス", href: "works.html" },
-  { label: "直近の仕事歴", href: "index.html#career" },
+  { label: "スキル", href: "skills.html" },
+  { label: "キャリア", href: "index.html#career" },
   { label: "お問合せ", href: "index.html#contact" },
   {
     label: "ブログ",

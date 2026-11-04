@@ -8,7 +8,7 @@
     <title>伴走する、DX。</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="navigation.js" defer></script>
   </head>
@@ -125,16 +125,16 @@
       <section class="price section-wrap" id="price" aria-labelledby="price-title">
         <div class="section-heading">
           <p class="eyebrow">03 / PRICE</p>
-          <h2 id="price-title">Price</h2>
+          <h2 id="price-title">料金</h2>
         </div>
         <div class="price-content">
           <p class="price-plan">1案件・1ヶ月想定</p>
-          <p class="price-amount">10万円</p>
-          <h3 class="price-details-title">詳細</h3>
+          <p class="price-amount">10万円<span class="price-tax">（税別）</span></p>
+          <h3 class="price-details-title">内訳</h3>
           <ol class="price-steps">
             <li>
               <span class="price-step-name">お打合せ</span>
-              <span class="price-step-duration">2時間</span>
+              <span class="price-step-duration">数回程度</span>
             </li>
             <li>
               <span class="price-step-name">プロトタイプ（試作作成）</span>
@@ -149,13 +149,15 @@
               <span class="price-step-duration">1週間</span>
             </li>
           </ol>
-          <h3 class="price-details-title price-tools-title">開発環境</h3>
-          <ul class="price-tools">
-            <li>AppSheet</li>
-            <li>Google Apps Script</li>
-            <li>Looker Studio</li>
-            <li>Google Sites</li>
-          </ul>
+          <div class="price-tools-panel">
+            <h3 class="price-details-title price-tools-title">活用ツール</h3>
+            <ul class="price-tools">
+              <li>AppSheet</li>
+              <li>Google Apps Script</li>
+              <li>Looker Studio</li>
+              <li>Google Sites</li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -164,7 +166,7 @@
         <div class="contact-content">
           <h2 id="contact-title">次の変化を、<br><span>一緒に。</span></h2>
           <p>新しいアイデアや、まだ言葉になっていない課題。<br>対話から、次の一歩を考えていきましょう。</p>
-          <a class="contact-link" href="#top">ページのはじめに戻る <span aria-hidden="true">↑</span></a>
+          <a class="contact-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc37dtI9_H4gQeXnJO8OBzYb568OUnHOXIzy-CsQrRLGMqiBw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">お問い合わせフォームはこちら <span aria-hidden="true">↗</span></a>
         </div>
         <div class="contact-mark" aria-hidden="true">DX<span>.</span></div>
       </section>
